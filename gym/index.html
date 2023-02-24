@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="alt.js" defer></script>
+</head>
+<body>
+    <header> GYM </header>
+    <div id="container">
+        <div class="head">
+            <form>
+                <div id="info">
+                    <div id="name">
+                        Full Name:
+                        <input type="text" name="Fname" id="fname" placeholder="Fullname">
+                    </div>
+                    <div id="Age">
+                        Age :
+                        <input type="number" name="age" max="70" min="18" id="age" placeholder="Age in Years">
+                    </div>
+                    <div id="height">
+                        <div>Height</div> <br>
+                        <select name="Feet" id="feet">
+                            <option value="Feet">Feet</option>
+                            <option value="4">4"</option>
+                            <option value="5">5"</option>
+                            <option value="6">6"</option>
+                        </select>
+                        <select name="Inch" id="inch">
+                            <option value="Inch">Inch</option>
+                            <option value="1">1"</option>
+                            <option value="2">2"</option>
+                            <option value="3">3"</option>
+                            <option value="4">4"</option>
+                            <option value="5">5"</option>
+                            <option value="6">6"</option>
+                            <option value="7">7"</option>
+                            <option value="8">8"</option>
+                            <option value="9">9"</option>
+                            <option value="10">10"</option>
+                            <option value="11">11"</option>
+                        </select>
+                    </div>
+                    <div id="date">
+                        <div>Start Date</div>
+                        <input type="date" name="startDate" id="startDate">
+                    </div>
+                </div>
+                <div id="button">
+                    <button type="button" onclick="validate()">Register</button>
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+        <div class="body">
+            <table class="sn">
+                <tbody class="tbody" id="sn_tbody">
+                <tr class="snHead">
+                    <th>S/N</th>
+                </tr>
+                
+                </tbody>
+            </table>
+            <div id="table">
+                <table id="Table">
+                    <tbody id="data_tbody">
+                    <tr>
+                        <th>Fullname</th>
+                        <th>Age</th>
+                        <th>Height</th>
+                        <th>Date</th>
+                        <th>Status</th>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,183 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Gym-weights.webp);
+    background-position: fixed;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 850px !important;
+    display: grid;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    display: grid;
+    align-items: center;
+    padding: 10px 0px;
+    background-color: #DABA91;
+    text-align: center;
+    display: grid;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 1.5rem;
+}
+
+#container{
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 300px 300px;
+    grid-gap: 50px;
+    margin-top: 20px;
+    background: rgba(68, 68, 68, 0.795);
+    justify-self: center;
+    align-self: center;
+}
+
+#container div {
+    background-color: transparent;
+
+}
+
+.head{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    grid-template-rows: 250px 1fr;
+    grid-template-columns: 80%;
+    grid-gap: 10px;
+}
+#info{
+    margin-top: 10px;
+    display: grid;
+    grid-template-rows: 40px 40px 30px 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    background: transparent;
+}
+    #info div{
+        display: grid;align-items: center;
+        font-weight: bold;
+        font-family: cursive;
+        font-size: 16px;
+        background-color: transparent;
+        color: rgba(255, 255, 255, 0.863);
+    }
+
+input[type="text"], input[type="number"]{
+    width: 150px;
+    height: 20px;
+    display: grid;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+    align-self: center;
+    color: black;
+}
+
+select{
+    width: 70px;
+    cursor: pointer;
+}
+
+#height{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    width: 200px;
+}
+
+input[type="date"]{
+    width: 150px;
+    height: 20px;
+    font-family: monospace;
+}
+
+
+button{
+    width: 100px;
+    height: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+    #button{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 2px;
+    }
+
+
+.body{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 50px 350px;
+    justify-content: center;
+    overflow-x: auto;
+}
+    .sn{
+        /* display: grid; */
+        height: 10px;
+        /* grid-template-rows: repeat(1, 24px); */
+        /* grid-gap: -0.5px; */
+        /* margin-top: 2px; */
+    }
+    
+    .snHead{
+        height: 24px !important;
+        background: transparent !important;
+    }
+/*    .snBody{
+        height: 0px !important;
+    } */
+    /* .sn div{ */
+        /* display: table; */
+        /* border: 2px solid black; */
+        /* justify-self: center; */
+        /* align-self: center; */
+        /* border-spacing: 2px; */
+        /* border-collapse: separate; */
+        /* box-sizing: border-box; */
+    /* } */
+
+    
+    .snBody :first-child{
+        margin-top: -100px;
+    }
+
+th,tr,td{
+    border: 2px solid #000000;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+
+#sn_tbody tr :first-child{
+    background: #1E1E1E;
+}
+
+#data_tbody tr :nth-child(odd){
+    background: #DABA91;
+    color: #000;
+}
+
+#data_tbody tr :nth-child(even){
+    background: #1E1E1E;
+    color: #fff;
+}
+
