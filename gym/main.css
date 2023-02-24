@@ -128,29 +128,13 @@ button{
     overflow-x: auto;
 }
     .sn{
-        /* display: grid; */
         height: 10px;
-        /* grid-template-rows: repeat(1, 24px); */
-        /* grid-gap: -0.5px; */
-        /* margin-top: 2px; */
     }
     
     .snHead{
         height: 24px !important;
         background: transparent !important;
     }
-/*    .snBody{
-        height: 0px !important;
-    } */
-    /* .sn div{ */
-        /* display: table; */
-        /* border: 2px solid black; */
-        /* justify-self: center; */
-        /* align-self: center; */
-        /* border-spacing: 2px; */
-        /* border-collapse: separate; */
-        /* box-sizing: border-box; */
-    /* } */
 
     
     .snBody :first-child{
